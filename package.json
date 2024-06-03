@@ -1,6 +1,6 @@
 {
   "name": "ai-translate",
-  "version": "0.1.5",
+  "version": "0.0.1",
   "repository": {
     "url": "https://github.com/BenjaminScholtens/ai-book"
   },
@@ -52,7 +52,7 @@
     ],
     "configuration": [
       {
-        "title": "LLM Book",
+        "title": "LLM Document Translator",
         "properties": {
           "ai-translate.openAI.model": {
             "type": "string",
@@ -105,7 +105,7 @@
     "notebooks": [
       {
         "type": "ai-translate",
-        "displayName": "LLM Book",
+        "displayName": "LLM Document Translator",
         "selector": [
           {
             "filenamePattern": "*.llm"
@@ -181,8 +181,8 @@
       }
     ]
   },
-  "displayName": "LLM Book",
-  "description": "LLM Book: Notebook-based prompt engineering interface for LLM's like GPT and LLaMa, akin to ChatGPT but better",
+  "displayName": "LLM Document Translator",
+  "description": "LLM Document Translator: Notebook-based prompt engineering interface for LLM's like GPT and LLaMa, akin to ChatGPT but better",
   "engines": {
     "vscode": "^1.77.0"
   },
